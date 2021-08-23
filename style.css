@@ -1,0 +1,91 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    text-align: center;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    text-align: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #333;
+    color: white;
+  }
+
+.home{
+    overflow: hidden;
+}
+    .home h1{
+        text-align: center;
+        text-decoration: underline;
+        color: #f2f2f2;
+        font-size: 35px;
+    }
+    .home h2{
+        text-align: center;
+        color: #f2f2f2;
+        font-size: 55px;
+    }
+    .home h3{
+        text-align: center;
+        top: 120px;
+        color: #f2f2f2;
+        font-size: 95px;
+    }
+    .home h4{
+        text-align: center;
+        top: 120px;
+        color: #f2f2f2;
+        font-size: 28px;
+    }
+    
+
+
+.about{
+    overflow: hidden;
+}
+    .about h1{
+        text-decoration: underline;
+        text-align: center;
+        top: 350px;
+        color: #f2f2f2;
+        font-size: 35px;
+    }
+    .about h2{
+        width: 974px;
+        margin: 0 auto;
+        text-align: center;
+        top: 120px;
+        color: #f2f2f2;
+        font-size: 23px;
+    }
+
+.projects{
+    overflow: hidden;
+    text-align: center;
+}
+    .projects h1{
+        text-decoration: underline;
+        text-align: center;
+        top: 350px;
+        color: #f2f2f2;
+        font-size: 35px;
+    }
+    .projects a{
+        text-align: center;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+
+
