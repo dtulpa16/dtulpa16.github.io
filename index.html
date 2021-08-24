@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
@@ -8,6 +9,7 @@
     <title>Document</title>
     <style>
         body {
+            font-family: 'Times New Roman', serif;
             background-image: url("https://iammagnus.com/wp-content/uploads/2016/05/website-design-background-1.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -23,135 +25,55 @@
     <div class="container">
         <nav class="topnav">
             <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class = 'active' class = 'hover' href="#home">Home</a></li>
+                <li><a class = 'active' class = 'hover' href="#about-me">About Me</a></li>
+                <li><a class = 'active' class = 'hover' href="#projects">Projects</a></li>
+                <li><a class = 'active' class = 'hover' href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    <div> 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <div class="home">
+        </nav> 
+        <div class="home" section id = 'home'>
             <h2>Hello, World.</h2>
-        </div>
-        <div class="home">
             <h3>I'm Dan Tulpa.</h3>
-        </div>
-        <br>
-        <div class="home">
+            <br>
             <h4>devCodeCamp Student | US Navy Veteran</h4>
         </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section id = 'about-me' class="about">
-        <h1>About Me</h2>
-    <br>
-    <div class='about'>
-        <p style = 'float: left;'><img src="https://i.ibb.co/f2F4NYr/1628381131391.jpg"height="480px" width="360px"></p>
-        <h2>During my time as an electronics technician in the US Navy, I discovered my passion for both troubleshooting technical issues and creating entirely new systemic solutions to keep my equipment up and running. I was the go-to guy for resolving any issues that happen to come upon the shipboard radars.
+    </section>
+        <div class='about' section id = 'about-me'>
+            <h1>About Me</h2>
+            <!-- <section id = 'about-me'>    -->
+            <p style = 'float: left;'><img src="https://i.ibb.co/f2F4NYr/1628381131391.jpg"height="480px" width="360px"></p>
+            <h2>During my time as an electronics technician in the US Navy, I discovered my passion for both troubleshooting technical issues and creating entirely new systemic solutions to keep my equipment up and running. I was the go-to guy for resolving any issues that happen to come upon the shipboard radars.
             <br>
             <br>
             Today, not much has changed. I still find great reward in creating solutions for any sort of technical issues. The difference is I now also find that this rewarding feeling can be obtained through coding. As a student of devCodeCamp, I’m challenged day in and day out to figure out how I can get from “point A” to “point B”. This process often involves many roadblocks, but when I successfully make it to “point B”, I come out of it with both a wave of excitement as well as coding knowledge I didn’t have before. This has lead to me finding my dream of becoming a full-stack developer.
             <br>
             <br>
             In my spare time, I am continuously finding ways to continue my quest towards financial independence. This quest involves consistent financial literacy, stock market research, and exploring ways to produce steady passive income. When I’m not exercising my financial goals, you can find me exercising in the gym! I’m a avid believer of keeping up with my health so I can continue to keep a clear head to accomplish my goals.</h2>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div id="projects" class='projects'>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <h1>My Projects</h1>
-        <br>
-        <br>
-        <br>
-        <div class="projects">
-        <ul>
-            <li><a href=https://github.com/dtulpa16/RPSLS_proj>Rock, Paper, Scissor, Lizard, Spock</a><br><br></li>
-            <li><a href=https://github.com/dtulpa16/robots_vs_dinosaurs_proj>Robots vs. Dinosaurs</a><br><br></li>
-            <li><a href=https://github.com/dtulpa16/mostWantedUser_proj>Most Wanted User Search Engine</a><br><br></li>
-            <li><a href=https://github.com/dtulpa16/dayTripGen_proj>Day Trip Generator</a><br><br><br></li>
-            <li><a href="#">More Projects Loading ...</a><br></li>
-            </div>
-        </ul>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <section id = 'contact' div class="contact">
-        <br>
-        <br>
-            <h1>Contact</h2>
-        <br>
-        <br>
-        <br>
-        <div class="contact">
-            <h2>Email: dtulpa16@yahoo.com</h2><br><br><br>
-            <h2>Click the icon to connect with me on LinkedIn!</h2><br>
-            <a href="https://www.linkedin.com/in/daniel-tulpa/">
-            <span class = 'contact-container'>
-                <img src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_400.gif" alt="LinkedIn"
-                style="width:300px;height:300px;">
-            </a>    
-            </span>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    </section>
+    <div class="projects" section id = 'projects'>
+        <h1>My Projects</h1>
 
+            <a href=https://github.com/dtulpa16/RPSLS_proj>Rock, Paper, Scissor, Lizard, Spock</a><br></li>
+            <a href=https://github.com/dtulpa16/robots_vs_dinosaurs_proj>Robots vs. Dinosaurs</a><br></li>
+            <a href=https://github.com/dtulpa16/mostWantedUser_proj>Most Wanted User Search Engine</a><br></li>
+            <a href=https://github.com/dtulpa16/dayTripGen_proj>Day Trip Generator</a></li>
+            <h2>...</h2></li><br></li>
+            <a href="#">More Projects Loading ...</a><br></li>
+        </div>
+
+    </section>
+    <div class="contact" section id = 'contact'>
+            <h1>Contact</h2>
+                <h2>Email: dtulpa16@yahoo.com</h2><br>
+                <h2>Click the icon to connect with me on LinkedIn!</h2>
+                <a href="https://www.linkedin.com/in/daniel-tulpa/">
+                <span class = 'contact-container'>
+                    <img src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_400.gif" alt="LinkedIn"
+                    style="width:300px;height:300px;">
+                </a>    
+                </span>
+        </div>
+    </section>
 </body>
 </html>
