@@ -137,18 +137,28 @@
     }
     .projects h3{
         text-align: center;
-        background: rgba(255, 255, 255, 0.3);
-        font-size: 13px;
+        background: rgba(255, 255, 255, 0.473);
+        font-size: 14px;
         color: #000000;
         border-radius: 5px;
         text-decoration: none;
     }
     .projects a{
         text-align: center;
-        background: rgba(255, 255, 255, 0.514);
+        background: rgba(255, 255, 255, 0.856);
         border-radius: 5px;
         color: #000000;
         text-decoration: none;
+        font-size: 30px;
+    }
+    .projects a:before{
+        content: ' \22C4 ';
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+    .projects a:after{
+        content: '\22C4 ';
+        color: rgb(0, 0, 0);
         font-size: 30px;
     }
     .projects a:hover{
@@ -168,7 +178,7 @@
         text-align: center;
         top: 350px;
         color: #f2f2f2;
-        font-size: 30px;
+        font-size: 35px;
         padding-top: 20% ;
         padding-bottom: 5%;
     }
